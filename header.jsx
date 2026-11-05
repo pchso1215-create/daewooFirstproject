@@ -30,8 +30,8 @@ function Header() {
                     <li><Link to="./pages/seasonoff" >시즌오프</Link></li>
                 </ul>
                 <ul className="util">
-                    <li><Link><img src={heartIcon} alt="Heart" /></Link></li>
-                    <li><Link><img src={cartIcon} alt="Cart" /></Link></li>
+                    <li><Link to="./pages/wishlist"><img src={heartIcon} alt="Heart" /></Link></li>
+                    <li><Link to="./pages/cart"><img src={cartIcon} alt="Cart" /></Link></li>
                 </ul>
             </div>
         </header>

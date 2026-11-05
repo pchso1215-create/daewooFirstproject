@@ -9,7 +9,7 @@ function Footer(){
             <div className="footer_wrap">
                 <div className="signUp">
                     <p className="title">이메일을 등록하시고 최신 소식을 받아보세요.</p>
-                    <button>이메일주소 등록</button>
+                    <button >이메일주소 등록</button>
                     <p className="option">
                         (선택) 마케팅 정보를 위해 이메일 수신을 등록하실 경우 언더아머코리아의 선택적 개인정보 처리(수집, 이용, 저장 등)에 동의한 것으로 간주합니다.  
                         <button>자세히보기</button>
@@ -17,9 +17,9 @@ function Footer(){
                     <p className="payment">
                     채무지급보증안내
                     당사는 고객님이 현금 결제한 금액에 대해 우리은행과
-                    채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.
-                        <button>서비스가입사실확인</button>
+                    채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다. 
                     </p>
+                    <button>서비스가입사실확인</button>
                 </div>
                 <div className="contact">
                     <h3>전화상담</h3>
@@ -29,7 +29,7 @@ function Footer(){
                     <button>문의하기</button>
                 </div>
                 <div className="customer">
-                    <h3>고객 서비스</h3>
+                    <h3><Link to="./pages/customerService">고객 서비스</Link></h3>
                     <ul>
                         <li>자주 묻는 질문(FAQ)</li>
                         <li>반품 및 교환</li>
@@ -43,7 +43,7 @@ function Footer(){
                         <li>채용 안내</li>
                     </ul>
                 </div>
-                <div className="sitemap">
+                <div className="sitemap"> 
                     <h3>UA 소셜</h3>
                     <ul>
                         <li><Link to="#">페이스북</Link></li>
