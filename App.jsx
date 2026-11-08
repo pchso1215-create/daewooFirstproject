@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route, useNavigate} from "react-router-dom";
 import Header from "./header";
 import Footer from "./footer";
 import Home from "./pages/home";
@@ -24,6 +24,7 @@ import CustomerService from "./pages/customerService";
 
 function App(){   
 
+    const navigate = useNavigate();
   return (
     <>
       <Header />

@@ -25,7 +25,7 @@ footer{
             text-decoration: none;
         }
         .signUp{
-            min-width: 200px;
+            min-width: 200px; 
             .title{
                 font-size: 12px;
                 font-weight: 700;
