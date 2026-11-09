@@ -20,6 +20,8 @@ import Wishlist from "./pages/wishlist";
 import Cart from "./pages/cart";
 import CustomerService from "./pages/customerService";
 
+import WomenShoes from "./pages/data/womenShoes"
+import menShoes from "./pages/data/menShoes"
 
 
 function App(){   
@@ -31,8 +33,8 @@ function App(){
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pages/acc" element={<Acc />} />
-        <Route path="/pages/men" element={<Men />} />
-        <Route path="/pages/women" element={<Women />} />
+        <Route path="/pages/men" element={<Women gender={'남성'} products={menShoes}/>} />
+        <Route path="/pages/women" element={<Women gender={'여성'} products={WomenShoes} />} />
         <Route path="/pages/shoes" element={<Shoes />} />
         <Route path="/pages/sports" element={<Sports />} />
         <Route path="/pages/new" element={<New />} />

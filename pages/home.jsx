@@ -58,7 +58,7 @@ function Home() {
                 <article>
                     {HomeData.map((card) => (
                         <HomeCard
-                            key={card.id}
+                            id={card.id}
                             imgSrc={card.imgSrc}
                             imgAlt={card.imgAlt}
                             title={card.title}
