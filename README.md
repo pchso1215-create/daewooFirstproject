@@ -10,7 +10,7 @@ cd firstProject
 router 설치
 npm install react-router-dom --save
 
-파일 다운로드 후 src 폴더에 옮기기
+파일 다운로드 후public폴더는 public 폴더에 내용만 넣고 나머지는 src 폴더에 옮기기
 
 프로젝트 폴더 열기
 cd firstProject
