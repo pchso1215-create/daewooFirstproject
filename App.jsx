@@ -5,8 +5,7 @@ import Header from "./header";
 import Footer from "./footer";
 import Home from "./pages/home";
 import Acc from "./pages/acc";
-import Men from "./pages/men";
-import Women from "./pages/women";
+import Products from "./pages/products";
 import Shoes from "./pages/shoes";
 import Sports from "./pages/sports";
 import New from "./pages/new";
@@ -19,6 +18,7 @@ import Orders from "./pages/orders";
 import Wishlist from "./pages/wishlist";
 import Cart from "./pages/cart";
 import CustomerService from "./pages/customerService";
+import ProductDetail from "./pages/productDetail";
 
 import WomenShoes from "./pages/data/womenShoes"
 import menShoes from "./pages/data/menShoes"
@@ -33,8 +33,8 @@ function App(){
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pages/acc" element={<Acc />} />
-        <Route path="/pages/men" element={<Women gender={'남성'} products={menShoes}/>} />
-        <Route path="/pages/women" element={<Women gender={'여성'} products={WomenShoes} />} />
+        <Route path="/pages/men" element={<Products gender={'남성'} products={menShoes}/>} />
+        <Route path="/pages/women" element={<Products gender={'여성'} products={WomenShoes} />} />
         <Route path="/pages/shoes" element={<Shoes />} />
         <Route path="/pages/sports" element={<Sports />} />
         <Route path="/pages/new" element={<New />} />
@@ -47,6 +47,7 @@ function App(){
         <Route path="/pages/wishlist" element={<Wishlist />} />
         <Route path="/pages/cart" element={<Cart />} />
         <Route path="/pages/customerService" element={<CustomerService />} />
+        <Route path="/pages/productDetail" element={<ProductDetail />} />
       </Routes>
       <Footer />
     </>
