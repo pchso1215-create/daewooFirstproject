@@ -12,7 +12,7 @@ function Header() {
             <div className="header_top">
                 {/* ul>li*4>Link */}
                 <ul>
-                    <li><Link to="./pages/language" >언어</Link>|</li>
+                    <li><Link to="/pages/country" >언어</Link>|</li>
                     <li><Link to="./pages/store" >매장찾기</Link>|</li>
                     <li><Link to="./pages/join" >회원가입</Link>|</li>
                     <li><Link to="./pages/login" >로그인</Link></li>

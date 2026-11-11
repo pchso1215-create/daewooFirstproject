@@ -38,7 +38,7 @@
         width: 100%;
     }
 }
-.sec2{
+#main>.sec2{
     padding: 100px;
     h2{
        font-size: 48px;

@@ -31,7 +31,7 @@ function Home() {
 
 
     return (
-        <main>
+        <main id="home">
             <section className="sec1">
                 <div className="top">
                     <p>YOUR RUN, YOUR STYLE</p>

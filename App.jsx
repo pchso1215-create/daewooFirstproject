@@ -19,9 +19,11 @@ import Wishlist from "./pages/wishlist";
 import Cart from "./pages/cart";
 import CustomerService from "./pages/customerService";
 import ProductDetail from "./pages/productDetail";
+import Country from './pages/country';
 
 import WomenShoes from "./pages/data/womenShoes"
 import menShoes from "./pages/data/menShoes"
+import MoreProgram from "./pages/moreProgram";
 
 
 function App(){   
@@ -48,6 +50,8 @@ function App(){
         <Route path="/pages/cart" element={<Cart />} />
         <Route path="/pages/customerService" element={<CustomerService />} />
         <Route path="/pages/productDetail" element={<ProductDetail />} />
+        <Route path="/pages/country" element={<Country />} />
+        <Route path="/pages/moreProgram" element={<MoreProgram />} />
       </Routes>
       <Footer />
     </>
